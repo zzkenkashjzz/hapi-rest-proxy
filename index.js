@@ -5,7 +5,7 @@ const tt = require('tinytime')
 const path = require('path')
 
 const server = new Hapi.Server({
-  port: process.env.PORT || '8080',
+  port: process.env.PORT || '80',
   routes: { cors: true }
 })
 
